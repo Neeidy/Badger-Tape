@@ -1,0 +1,28 @@
+.env
+.mcp.json
+client_secrets.json
+token.json
+__pycache__/
+*.pyc
+.claude/settings.local.json
+"FAL ai- key.txt"
+output.txt
+test.py
+
+output/
+music/
+videos/
+images/
+temp/
+logs/
+
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Karakter referansları korunsun
+!references/avatar.png
+!references/Banner.png
