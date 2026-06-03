@@ -26,3 +26,10 @@ logs/
 # Karakter referansları korunsun
 !references/avatar.png
 !references/Banner.png
+.gstack/
+
+# Runtime state & private docs
+episode_counter.txt
+PORTFOLIO_ANALYSIS.md
+*.spec
+.DS_Store
