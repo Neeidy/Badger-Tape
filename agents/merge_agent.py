@@ -9,9 +9,6 @@ import threading
 from datetime import datetime
 from pathlib import Path
 
-FFMPEG_PATH = r"C:\Users\yigit\AppData\Local\Microsoft\WinGet\Packages\Gyan.Ffmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
-FFPROBE_PATH = r"C:\Users\yigit\AppData\Local\Microsoft\WinGet\Packages\Gyan.Ffmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
-
 from agents.common import (
     BASE_DIR,
     CostTracker, log, save_state, save_error,

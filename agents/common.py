@@ -4,14 +4,27 @@ Badger Tape — Shared utilities for agent architecture
 
 import json
 import logging
+import os
+import shutil
 import subprocess
 import sys
 import threading
 from datetime import datetime
 from pathlib import Path
 
-FFMPEG_PATH = r"C:\Users\yigit\AppData\Local\Microsoft\WinGet\Packages\Gyan.Ffmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
-FFPROBE_PATH = r"C:\Users\yigit\AppData\Local\Microsoft\WinGet\Packages\Gyan.Ffmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
+
+def _resolve_bin(name: str, env_key: str) -> str:
+    """ffmpeg/ffprobe yolunu cozumle: once .env'deki tam yol, yoksa PATH."""
+    p = os.getenv(env_key) or shutil.which(name)
+    if not p:
+        raise RuntimeError(
+            f"{name} bulunamadi. PATH'e ekleyin veya .env icinde {env_key} tanimlayin."
+        )
+    return p
+
+
+FFMPEG_PATH = _resolve_bin("ffmpeg", "FFMPEG_PATH")
+FFPROBE_PATH = _resolve_bin("ffprobe", "FFPROBE_PATH")
 
 # ── Directories ──────────────────────────────────────────────────────────────
 
