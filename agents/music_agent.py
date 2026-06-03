@@ -168,7 +168,7 @@ class MusicAgent:
                         "lyrics_prompt": lyrics,
                     },
                     with_logs=False,
-                    timeout=180,
+                    client_timeout=180,
                 )
 
                 cost_tracker.record(COST_MUSIC_TRACK, f"minimax-music track {idx:02d}")

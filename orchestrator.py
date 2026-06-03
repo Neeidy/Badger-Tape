@@ -248,8 +248,8 @@ def launch_monitor():
         return
     try:
         subprocess.Popen(
-            f'start "Badger Tape Monitor" cmd /k "python \\"{monitor_script}\\""',
-            shell=True,
+            ['cmd', '/c', 'start', 'Badger Tape Monitor', 'cmd', '/k',
+             f'python "{monitor_script}"'],
             cwd=str(BASE_DIR),
         )
         log("Orchestrator", "Monitor penceresi acildi")
