@@ -33,3 +33,7 @@ episode_counter.txt
 PORTFOLIO_ANALYSIS.md
 *.spec
 .DS_Store
+
+# Competitor research data (kept locally, not published)
+.firecrawl/
+lofi-girl-analiz.md
