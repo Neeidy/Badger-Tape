@@ -16,12 +16,6 @@
 
 Badger Tape is an automated lofi music channel system. A single command generates the artwork, motion loop, music, final render, metadata, and (optionally) the YouTube upload — all governed by a hard spending cap and human-in-the-loop safety defaults. Its mascot is **Porsuk**, a headphone-wearing, night-owl cat.
 
-<p align="center">
-  <img src="docs/assets/dashboard.png" alt="Badger Tape Studio dashboard — overview" width="820">
-  <br>
-  <sub><b>Studio dashboard</b> — sessions, cost governance, pipeline state, gallery and live monitoring (read-only).</sub>
-</p>
-
 ---
 
 ## Architecture

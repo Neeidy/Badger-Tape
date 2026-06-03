@@ -26,9 +26,6 @@ logs/
 # Karakter referansları korunsun
 !references/avatar.png
 !references/Banner.png
-# README/docs görselleri korunsun
-!docs/assets/
-!docs/assets/*.png
 .gstack/
 
 # Runtime state & private docs
