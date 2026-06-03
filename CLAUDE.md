@@ -5,9 +5,9 @@ Badger Tape bir lofi müzik YouTube kanalıdır.
 Kanal: youtube.com/@BadgerTape
 Maskot: Porsuk adlı bir kedi karakteri — kulaklıklı, gece hayvanı, yuva/in teması
 Slogan: "drift away, one beat at a time"
-Hedef: Lofi Girl formatını AI destekli pipeline ile klonlamak
+Hedef: Tür lideri lofi kanallarıyla yarışabilen, özgün marka kimliğine sahip, AI destekli üretim pipeline'ı kurmak
 
-## İçerik Stratejisi (Lofi Girl Analizine Göre)
+## İçerik Stratejisi (tür benchmark analizine göre)
 - Upload ritmi: Haftada 2-3 video
 - Süre: 1 saat (çalışma) veya 8 saat (uyku)
 - Başlık formatı: küçük harf, emoji, "beats to [verb] to" imzası
@@ -48,7 +48,7 @@ Thank you for listening. Stay cozy.
 - Analiz: Firecrawl
 
 ## Kurallar
-- Her zaman Lofi Girl analiz dosyasına (lofi-girl-analiz.md) başvur
+- İçerik kararlarında tür benchmark analiz notlarına (yerel referans) başvur
 - Başlıklar küçük harf olsun
 - Porsuk karakteri her videoda olsun
 - Mevsimsel takvime uy
