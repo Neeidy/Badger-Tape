@@ -1,10 +1,26 @@
-# Badger Tape
+<h1 align="center">🦡 Badger Tape</h1>
 
-> A one-command, human-supervised AI pipeline that produces lofi YouTube videos end to end — paired with a zero-dependency, read-only Studio dashboard for observability.
+<p align="center">
+  <em>drift away, one beat at a time</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/pipeline-3--phase%20parallel-ffb454" alt="3-phase parallel pipeline">
+  <img src="https://img.shields.io/badge/dashboard-stdlib%20only-5cd887" alt="stdlib-only dashboard">
+  <img src="https://img.shields.io/badge/cost%20cap-%242.00%2Frun-f7913a" alt="$2.00 per-run cap">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License">
+</p>
+
+> A one-command, human-supervised AI pipeline that produces lofi YouTube videos end to end — paired with a zero-dependency, read-only **Studio dashboard** for observability.
 
 Badger Tape is an automated lofi music channel system. A single command generates the artwork, motion loop, music, final render, metadata, and (optionally) the YouTube upload — all governed by a hard spending cap and human-in-the-loop safety defaults. Its mascot is **Porsuk**, a headphone-wearing, night-owl cat.
 
-*drift away, one beat at a time*
+<p align="center">
+  <img src="docs/assets/dashboard.png" alt="Badger Tape Studio dashboard — overview" width="820">
+  <br>
+  <sub><b>Studio dashboard</b> — sessions, cost governance, pipeline state, gallery and live monitoring (read-only).</sub>
+</p>
 
 ---
 
