@@ -128,14 +128,14 @@ All music and visuals are produced with AI tools and curated by a human. The bra
 
 ---
 
-## Author
+## License
 
-**Built by Yigitcan Uk**
-
-[LinkedIn](https://www.linkedin.com/in/yigitcanuk/) · [GitHub](https://github.com/Neeidy)
+MIT — see [LICENSE](./LICENSE).
 
 ---
 
-## License
+<div align="center">
 
-Released under the [MIT License](LICENSE).
+Built by [Yigitcan Uk](https://www.linkedin.com/in/yigitcanuk/) · [GitHub](https://github.com/Neeidy)
+
+</div>
